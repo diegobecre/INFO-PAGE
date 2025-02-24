@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css" />
+    <link rel="shortcut icon" href="img/iconbd.png" />
+    <title>Diego Becerra Regalado</title>
+</head>
+
+<body>
+    <div class="navBar">
+        <nav>
+            <ul>
+                <li><a href="#top">Inicio</a></li>
+                <li><a href="#intro">Introducción</a></li>
+                <li><a href="#modelos">Modelos de datos</a></li>
+                <li><a href="#lenguajes">Lenguajes de consulta</a></li>
+                <li><a href="#diseño">Diseño</a></li>
+                <li><a href="#admin">Administración</a></li>
+                <li><a href="#tecnicas">Técnicas de Implementación</a></li>
+                <li><a href="#problems">Problemáticas</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="cont">
+        <div class="top" id="top">
+            <h1>Bases de Datos</h1>
+        </div>
+        <div class="menu">
+            <section>
+                <div id="intro">
+                    <h2>Introducción</h2>
+                    <div>
+                        <div class="text">
+                            <p><b>Definición de base de datos: </b>Programa capaz de almacenar gran cantidad de datos,
+                                relacionados y estructurados, que pueden ser consultados rápidamente de acuerdo con las
+                                características selectivas que se deseen.</p>
+                        </div>
+                        <hr>
+                        <div>
+                            <div class="text">
+                                <p><b>Objetivos de las bases de datos: </b>almacenar gran número de información de una
+                                    forma organizada para su futura consulta, realización de busquedas, nuevo ingreso de
+                                    datos, etc.</p>
+                            </div>
+                            <hr>
+                            <div>
+                                <div class="text">
+                                    <p><b>Componentes de un sistema de bases de datos:</b></p>
+                                    <li>Tablas: Para guardar datos.</li>
+                                    <li>Consultas: Para acceder a la información contenida en una base de datos. Con las
+                                        consultas se pueden modificar, agregar, eliminar y mostrar datos.</li>
+                                    <li>Informes: Para presentar información contenida en una base de datos. Esta
+                                        información se muestra de una forma en concreto y en un determinado formato para
+                                        que pueda ser imprimida.</li>
+                                    <li>Formularios: Para ingresar datos.</li>
+                                    <li>Macros: Para crear instrucciones y ejecutar funciones.</li>
+                                </div>
+                                <hr>
+                                <div>
+                                    <div class="text">
+                                        <p><b>Clasificación de las bases de datos</b></p>
+                                        <li>Relacionales</li>
+                                        <li>No relacionales</li>
+                                        <li>En la nube</li>
+                                        <li>En columnas</li>
+                                        <li>Orientadas a objetos</li>
+                                        <li>Key-value</li>
+                                        <li>Jerárquicas</li>
+                                        <li>Documentales</li>
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <div class="text">
+                                            <p><b>Áreas de aplicación de las bases de datos</b> </p>
+                                            <li>Banca: Para llevar el control de la información de los clientes,
+                                                cuentas, prestamos y todas las transacciones bancarias.</li>
+                                            <li>Líneas aéreas: Para llevar el control de todas las planificaciones de
+                                                vuelos de una aerolínea y las reservaciones hechas por los clientes. Las
+                                                líneas aéreas fueron de las primeras en usar las base de datos de forma
+                                                distribuida geográficamente (las terminales situadas en todo el mundo
+                                                accedían al sistema de base de datos centralizado a través de las líneas
+                                                telefónicas y otras redes de datos).</li>
+                                            <li>Escuelas: Para llevar el control de los estudiantes, horarios, cursos,
+                                                inscripciones y calificaciones.</li>
+                                            <li>Transacciones de tarjetas de crédito: Para llevar el control de compras
+                                                con tarjeta de crédito y generación mensual de estados de cuenta de los
+                                                usuarios.</li>
+                                            <li>Telecomunicaciones: Para guardar un registro de las llamadas realizadas,
+                                                generación mensual de factures, control del saldo de las tarjetas de
+                                                prepago y almacenar información sobre las redes de comunicaciones.</li>
+                                            <li>Finanzas: Para almacenar información sobre grandes empresas, ventas y
+                                                compras de documentos formales financieros, como bolsa y bonos</li>
+                                            <li>Finanzas: Para almacenar información sobre grandes empresas, ventas y
+                                                compras de documentos formales financieros, como bolsa y bonos </li>
+                                            <li>Producción: Para la gestión de la cadena de producción, seguimiento de
+                                                la producción y control de inventarios en almacén</li>
+                                            <li>Recursos humanos: Para llevar el control de información sobre los
+                                                empleados, salaries, impuestos y con esto poder generar la nómina.</li>
+                                        </div>
+            </section>
+        </div>
+        <div class="menu">
+            <section>
+                <div id="modelos">
+                    <h2>Modelos de datos</h2>
+                    <div class="text">
+                        <p><b>Modelo conceptual de datos: </b>Es una representación de un sistema, hecho de la
+                            composición de conceptos que se utilizan para ayudar a las personas a conocer, comprender o
+                            simular un tema que representa el modelo, incluye las entidades importantes y las relaciones
+                            entre ellos.</p>
+                    </div>
+                    <hr>
+                    <div>
+                        <div class="text">
+                            <p><b>Modelo lógico de datos: </b>Es un modelo que no es específico de una base de datos que
+                                describe aspectos relacionados con las necesidades de una organización para recopilar
+                                datos y las relaciones entre estos aspectos.</p>
+                        </div>
+                        <hr>
+                        <div>
+                            <div class="text">
+                                <p><b>Modelo físico de datos: </b>Es un modelo específico de bases de datos que
+                                    representa objetos de datos relacionales (por ejemplo, tablas, columnas, claves
+                                    principales y claves externas) y sus relaciones.</p>
+                            </div>
+                            <hr>
+                            <div>
+                                <div class="text">
+                                    <p><b>Modelo de datos relacional: </b>Es una colección de información que organiza
+                                        datos en relaciones predefinidas, en la que los datos se almacenan en una o más
+                                        tablas (o "relaciones") de columnas y filas.</p>
+                                </div>
+                                <hr>
+                                <div>
+                                    <div class="text">
+                                        <p><b>Modelo de datos jerárquico: </b>Es un tipo de sistema de gestión de bases
+                                            de datos que, como su nombre indica, almacena la información en una
+                                            estructura jerárquica que enlaza los registros en forma de estructura de
+                                            árbol, en donde un nodo padre de información puede tener varios nodos hijo,
+                                            y así sucesivamente.</p>
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <div class="text">
+                                            <p><b>Modelo de datos de red: </b>Es un modelo de base de datos concebido
+                                                como un modo flexible de representar objetos y su relación.</p>
+                                        </div>
+            </section>
+        </div>
+        <div class="menu">
+            <section>
+                <div id="lenguajes">
+                    <h2>Lenguajes de consulta</h2>
+                    <div class="text">
+                        <p><b>Lenguajes de consulta de datos: </b>Son herramientas que permiten a los usuarios recuperar
+                            información de bases de datos y sistemas de gestión de datos de manera estructurada y
+                            eficiente. </p>
+                        <li>SQL: Lenguaje estándar para bases de datos relacionales.</li>
+                        <li>NoSQL Query Languages: Lenguajes específicos para bases de datos NoSQL.</li>
+                        <li>SPARQL: Para consultar datos en la web semántica y RDF.</li>
+                        <li>XQuery: Recupera y transforma datos en XML.</li>
+                        <li>Datalog: Usado en programación lógica y bases deductivas.</li>
+                        <li>GraphQL: Acceso flexible a datos en servicios web y API.</li>
+                    </div>
+                    <hr>
+                    <div class="text">
+                        <p><b>SQL (Structured Query Language)</b> es un lenguaje de programación utilizado para
+                            administrar y consultar bases de datos relacionales. Permite realizar operaciones como la
+                            recuperación, inserción, actualización y eliminación de datos en tablas de bases de datos.
+                            SQL se utiliza ampliamente en sistemas de gestión de bases de datos relacionales como MySQL,
+                            PostgreSQL, Oracle, Microsoft SQL Server y muchos otros.</p>
+                    </div>
+                    <hr>
+                    <div class="text">
+                        <p><b>Lenguajes de manipulación de datos: </b>Son herramientas que permiten a los usuarios
+                            realizar acciones específicas en los datos almacenados en una base de datos. Aquí tienes
+                            algunos ejemplos de lenguajes de manipulación de datos:</p>
+                    </div>
+                    <hr>
+                    <div class="text">
+                        <p><b>Lenguajes de definición de datos</b> (DDL, por sus siglas en inglés, Data Definition
+                            Language) son un conjunto de comandos y sentencias utilizados para definir, gestionar y
+                            modificar la estructura y la organización de las bases de datos. Estos lenguajes permiten a
+                            los administradores de bases de datos y a los desarrolladores especificar cómo se deben
+                            crear, modificar y eliminar tablas, índices, restricciones y otros elementos de una base de
+                            datos</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="menu">
+            <section>
+                <div id="diseño">
+                    <h2>Diseño de bases de datos</h2>
+                    <div class="text">
+                        <p><b>Proceso de diseño de bases de datos: </b>Es el conjunto de pasos y decisiones tomadas para
+                            crear una estructura organizada y eficiente que almacene y gestione datos de manera
+                            coherente. Incluye la definición de tablas, relaciones, atributos y restricciones para
+                            satisfacer las necesidades de almacenamiento y recuperación de información de una aplicación
+                            o sistema.</p>
+                    </div>
+                    <hr>
+                    <div class="text">
+                        <p><b>Diseño conceptual de bases de datos: </b>Es la etapa inicial del proceso de diseño de
+                            bases de datos. En esta fase, se crea un modelo abstracto de la base de datos que se centra
+                            en las entidades, sus atributos y las relaciones entre ellas, sin preocuparse por detalles
+                            técnicos o estructuras físicas de almacenamiento. El objetivo es comprender y representar de
+                            manera clara y completa la estructura lógica de la información que se desea almacenar y
+                            gestionar en la base de datos.</p>
+                    </div>
+                    <hr>
+                    <div class="text">
+                        <p><b>Diseño lógico de bases de datos: </b>Se refiere a la fase del proceso de diseño de bases
+                            de datos en la que se traduce el modelo conceptual en una estructura lógica que puede
+                            implementarse en un sistema de gestión de bases de datos (DBMS). En esta etapa, se definen
+                            las tablas, atributos, claves primarias, claves foráneas y otras restricciones necesarias
+                            para representar la estructura de datos de manera coherente y eficiente, teniendo en cuenta
+                            las capacidades y requisitos del DBMS específico que se utilizará. El diseño lógico se
+                            enfoca en los detalles técnicos y la implementación práctica de la base de datos.</p>
+                    </div>
+                    <hr>
+                    <div class="text">
+                        <p><b>Diseño físico de bases de datos: </b>Es la fase final del proceso de diseño de bases de
+                            datos. En esta etapa, se traducen las estructuras lógicas y las especificaciones del diseño
+                            lógico en una implementación física concreta en el sistema de gestión de bases de datos
+                            (DBMS) elegido. Esto implica decisiones sobre la organización de datos en disco, índices,
+                            tamaños de campo, tipos de datos y otros aspectos técnicos que afectan directamente al
+                            rendimiento y la eficiencia de la base de datos. El diseño físico se enfoca en la
+                            optimización y la preparación para la implementación y la administración de la base de datos
+                            en un entorno real.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="menu">
+            <section>
+                <div id="admin">
+                    <h2>Administración de bases de datos</h2>
+                    <div class="text">
+                        <p><b>Administración de usuarios y permisos: </b>Se refiere al proceso de gestionar quiénes
+                            tienen acceso a un sistema o recurso informático y qué acciones específicas están
+                            autorizados a realizar. En un contexto de bases de datos, esto implica controlar quién puede
+                            acceder a la base de datos, qué datos pueden ver o modificar, y qué operaciones pueden
+                            realizar. Esto se logra mediante la creación y gestión de cuentas de usuario, roles y
+                            permisos que definen las acciones y los recursos a los que se tiene acceso. La
+                            administración de usuarios y permisos es fundamental para garantizar la seguridad y la
+                            integridad de los datos almacenados en una base de datos.</p>
+                    </div>
+                    <hr>
+                    <div class="text">
+                        <p><b>Administración de seguridad: </b>Se refiere a la gestión de medidas y políticas diseñadas
+                            para proteger un sistema, una red, una base de datos u otros recursos informáticos contra
+                            amenazas y riesgos potenciales. Esto incluye la implementación de controles de seguridad, la
+                            asignación de permisos y roles adecuados, la supervisión de actividades sospechosas y la
+                            aplicación de políticas de seguridad. Puede abarcar aspectos como la gestión de contraseñas,
+                            el cifrado de datos, la autenticación de usuarios, la detección y respuesta a incidentes, y
+                            la aplicación de parches de seguridad, entre otros.</p>
+                    </div>
+                    <hr>
+                    <div class="text">
+                        <p><b>Administración del rendimiento: </b>Se refiere a las prácticas y estrategias utilizadas
+                            para garantizar que una base de datos funcione de manera eficiente y cumpla con los
+                            requisitos de rendimiento esperados. Esto incluye la optimización de consultas, el diseño
+                            adecuado de índices, la asignación de recursos del sistema y la monitorización continua para
+                            identificar y resolver problemas que puedan afectar la velocidad y la capacidad de respuesta
+                            de la base de datos.</p>
+                    </div>
+                    <hr>
+                    <div class="text">
+                        <p><b>Administración de la integridad de los datos: </b>Se refiere a asegurar que los datos sean
+                            precisos, coherentes y fiables. Esto implica establecer reglas, validar entradas, controlar
+                            el acceso y realizar respaldos para evitar errores o corrupción de datos.</p>
+                    </div>
+                    <hr>
+                    <div class="text">
+                        <p><b>Administración de la replicación de datos: </b>Se refiere a la gestión de copias
+                            sincronizadas de datos en múltiples ubicaciones para garantizar la disponibilidad y la
+                            redundancia. Esto permite que los datos estén disponibles en caso de fallos o necesidades de
+                            acceso rápido en diferentes lugares.</p>
+                    </div>
+                    <hr>
+                    <div class="text">
+                        <p><b>Administración de la recuperación de desastres: </b>Se refiere a la planificación y las
+                            estrategias para restaurar los datos y la funcionalidad de la base de datos en caso de
+                            eventos catastróficos, como fallos de hardware, errores humanos o desastres naturales. El
+                            objetivo es asegurar la continuidad del negocio y la protección de los datos críticos.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="menu">
+            <section>
+                <div id="tecnicas">
+                    <h2>Técnicas de implementación de sistemas de bases de datos</h2>
+                    <div class="text">
+                        <p><b>Hardware de bases de datos: </b>Se refiere a los componentes físicos, como servidores,
+                            discos duros, memoria RAM y unidades de procesamiento, que forman la infraestructura
+                            tecnológica utilizada para almacenar, gestionar y acceder a los datos en una base de datos.
+                            El rendimiento y la capacidad de una base de datos están influenciados significativamente
+                            por la calidad y la configuración del hardware que la respalda.</p>
+                    </div>
+                    <hr>
+                    <div class="text">
+                        <p><b>Software de bases de datos: </b>Es un programa informático o un conjunto de programas
+                            diseñados para crear, gestionar y manipular bases de datos. Estos software permiten la
+                            creación de tablas, relaciones, consultas, informes y la gestión de datos de manera
+                            eficiente. Ejemplos comunes de software de bases de datos incluyen Microsoft SQL Server,
+                            Oracle Database, MySQL, PostgreSQL y MongoDB.</p>
+                    </div>
+                    <hr>
+                    <div class="text">
+                        <p><b>Sistemas de bases de datos relacionales: </b>Son software diseñados para gestionar bases
+                            de datos que siguen el modelo de datos relacionales. En este tipo de sistemas, los datos se
+                            organizan en tablas (o relaciones) que están interconectadas mediante claves primarias y
+                            claves foráneas. Algunos ejemplos de DBMS relacionales populares incluyen Microsoft SQL
+                            Server, Oracle Database, MySQL, PostgreSQL, y SQLite. Estos sistemas permiten el
+                            almacenamiento, consulta y manipulación de datos de manera estructurada y eficiente, y son
+                            ampliamente utilizados en aplicaciones empresariales y en la mayoría de los sistemas de
+                            gestión de datos.</p>
+                    </div>
+                    <hr>
+                    <div class="text">
+                        <p><b>Sistemas de bases de datos NoSQL: </b>Son un tipo de software de gestión de datos
+                            diseñados para manejar datos no estructurados o altamente distribuidos, ofreciendo
+                            flexibilidad y escalabilidad en comparación con las bases de datos relacionales
+                            tradicionales.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="menu">
+            <p>Práctica 1 M4S1</p>
+        </div>
+    </div>
+</body>
+
+</html>

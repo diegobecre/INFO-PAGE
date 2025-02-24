@@ -1,0 +1,85 @@
+body {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    background-color: rgba(4, 38, 61, 0.836);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 1em;
+}
+
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+.cont {
+    width: 80%;
+    height: auto;
+    position: relative;
+    top: 10%;
+    left: 5%;
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.cont>div {
+    margin-top: 10%;
+    max-width: 100%;
+
+}
+
+.menu {
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    left: 0%;
+    padding: 20px;
+    opacity: 0.9;
+    background-color: rgba(100, 98, 98, 0.288);
+    box-shadow: rgb(40, 41, 43) 0px 20px 30px -10px;
+    text-align: justify;
+}
+
+.navBar {
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.541);
+    text-align: center;
+    font-size: large;
+}
+
+.navBar a {
+    text-decoration: none;
+    color: white;
+}
+
+.top {
+    width: 100%;
+    height: 220px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://www.nextu.com/blog/wp-content/uploads/sites/4/2019/09/bases-de-datos-nosql.png);
+    text-align: center;
+}
+
+hr {
+    border-color: white;
+}
